@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); /** font-family: 'Bangers', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap'); /* font-family: 'Slabo 27px', serif;**/
+
+body {
+    background-color: rgba(8, 8, 8, 0.933);
+    color: white;
+    width: 50vw;
+    text-align: center;
+    margin-left: 23vw;
+    border: 1px solid rgb(255, 255, 255);
+    word-break: keep-all;
+    background-image: url(https://images4.alphacoders.com/794/794670.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -1200px;
+    padding: 5vw;
+}
+h1,
+h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+h1 {
+    text-align: center;
+}
+
+.img picture {
+    /**   background-image: url(https://t1.daumcdn.net/cfile/tistory/210B975056BE434D26);*/
+    background-size: contain;
+    width: 40vw;
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-position-x: 10vw;
+    background-position-y: 2vw;
+    margin-bottom: -20vw;
+    display: flex;
+}
+.contenuto h2 {
+    text-align: left;
+    padding: 1vw;
+}
+.contenuto p {
+    text-align: left;
+    margin-top: none;
+    padding: 1vw;
+    font-family: 'Slabo 27px', serif;
+    font-size: 26px;
+    word-break: keep-all;
+}
+
+article {
+    padding: 10px;
+}
+.blockquote a {
+    font-size: 30px;
+    text-align: left;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
